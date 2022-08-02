@@ -23,11 +23,35 @@ public class OptimalPairs {
             map2.put(a[0], a[1]);
         }
 
+        var firstOptimalPair = getLargestMatchingPair(optimalSum, map1, map2);
+        var optimalSumFound = firstOptimalPair[0];
+
+        list.add(new int[]{firstOptimalPair[1], firstOptimalPair[2]});
+        map1.remove(firstOptimalPair[1]);
+        map2.remove(firstOptimalPair[2]);
+
+        while(true) {
+            var optimalPair = getMatchingPair(optimalSumFound, map1, map2);
+
+            if(optimalPair.length>0){
+                list.add(new int[]{optimalPair[0], optimalPair[1]});
+                map1.remove(optimalPair[0]);
+                map2.remove(optimalPair[1]);
+            }
+            else{
+                break;
+            }
+        }
+
+        int[][] result = new int[list.size()][2];
+
+        return list.toArray(result);
+    }
+
+    private int [] getLargestMatchingPair(int optimalSum, HashMap<Integer, Integer>map1, HashMap<Integer, Integer>map2){
         var candidateKey1 = 0;
         var candidateKey2 = 0;
         var candidateSum = 0;
-
-        outerloop1:
         for (int key1 : map1.keySet()){
             for (int key2 : map2.keySet()){
                 var sum = map1.get(key1) + map2.get(key2);
@@ -36,44 +60,28 @@ public class OptimalPairs {
                     candidateKey1 = key1;
                     candidateKey2 = key2;
                     if(sum == optimalSum){
-                        break outerloop1;
+                        return new int[] {candidateSum, candidateKey1, candidateKey2};
                     }
                 }
             }
         }
 
-        list.add(new int[]{candidateKey1, candidateKey2});
-        map1.remove(candidateKey1);
-        map2.remove(candidateKey2);
-
-        var pairFound = false;
-
-        do {
-            pairFound = false;
-            outerloop2:
-            for (int key1 : map1.keySet()) {
-                for (int key2 : map2.keySet()) {
-                    var sum = map1.get(key1) + map2.get(key2);
-                    if (sum == candidateSum) {
-                        candidateKey1 = key1;
-                        candidateKey2 = key2;
-                        pairFound = true;
-                        break outerloop2;
-                    }
-                }
-            }
-            if(pairFound){
-                list.add(new int[]{candidateKey1, candidateKey2});
-                map1.remove(candidateKey1);
-                map2.remove(candidateKey2);
-            }
-        }
-        while(pairFound);
-
-        int[][] result = new int[list.size()][2];
-
-        return list.toArray(result);
+        return new int[] {candidateSum, candidateKey1, candidateKey2};
     }
+
+    private int [] getMatchingPair(int optimalSum, HashMap<Integer, Integer>map1, HashMap<Integer, Integer>map2){
+        for (int key1 : map1.keySet()) {
+            for (int key2 : map2.keySet()) {
+                var sum = map1.get(key1) + map2.get(key2);
+                if (sum == optimalSum) {
+                    return new int[] { key1, key2};
+                }
+            }
+        }
+
+        return new int[] { };
+    }
+
     public void run(){
         System.out.println("OptimalPairs: ");
 
