@@ -1,4 +1,5 @@
 import medium._0003_LongestSubstringWithoutRepeatingCharacters;
+import other.MergeUnique;
 import other.OptimalPairs;
 import other.SumMinimalPair;
 
@@ -7,5 +8,6 @@ public class Main {
         new OptimalPairs().run();
         new SumMinimalPair().run();
         new _0003_LongestSubstringWithoutRepeatingCharacters().run();
+        new MergeUnique().run();
     }
 }
