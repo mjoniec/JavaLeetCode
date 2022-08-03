@@ -17,5 +17,6 @@ public class Main {
         new _0191_NumberOf1Bits().run();
         new _0338_CountingBits().run();
         new _0268_MissingNumber().run();
+        new _0190_ReverseBits().run();
     }
 }
