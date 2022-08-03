@@ -1,3 +1,5 @@
+import easy._0121_BestTimeToBuyAndSellStock;
+import easy._0217_ContainsDuplicate;
 import medium._0003_LongestSubstringWithoutRepeatingCharacters;
 import other.MergeUnique;
 import other.OptimalPairs;
@@ -11,5 +13,7 @@ public class Main {
         new _0003_LongestSubstringWithoutRepeatingCharacters().run();
         new MergeUnique().run();
         new SpaceBetweenWordsMiddle().run();
+        new _0217_ContainsDuplicate().run();
+        new _0121_BestTimeToBuyAndSellStock().run();
     }
 }
