@@ -18,5 +18,6 @@ public class Main {
         new _0338_CountingBits().run();
         new _0268_MissingNumber().run();
         new _0190_ReverseBits().run();
+        new _0070_ClimbingStairs().run();
     }
 }
