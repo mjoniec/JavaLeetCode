@@ -5,21 +5,33 @@ import java.util.Arrays;
 
 public class _0226InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
+        if(root == null){
+            return null;
+        }
 
+        TreeNode tmp = root.left;
+        root.left = root.right;
+        root.right = tmp;
 
-        return null;
+        invertTree(root.left);
+        invertTree(root.right);
+
+        return root;
     }
 
     public void run() {
-        var sb = new StringBuffer();
-
-        print_r(prepareTestNodes(), 0, sb);
-
         System.out.println("_0226InvertBinaryTree");
         System.out.println("Given: [4,2,7,1,3,6,9] Expected: [4,7,2,9,6,3,1]");
+
         System.out.println("Given formatted:");
+        var sb = new StringBuffer();
+        print_r(prepareTestNodes(), 0, sb);
         System.out.println(sb);
+
         System.out.println("Actual formatted:");
+        sb = new StringBuffer();
+        print_r(invertTree(prepareTestNodes()), 0, sb);
+        System.out.println(sb);
     }
 
     public TreeNode prepareTestNodes(){
