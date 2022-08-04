@@ -1,9 +1,6 @@
 package easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public class _0226InvertBinaryTree {
+public class _0226_InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null){
             return null;
