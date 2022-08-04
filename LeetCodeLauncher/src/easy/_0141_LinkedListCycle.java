@@ -1,7 +1,19 @@
 package easy;
 
+import java.util.ArrayList;
+
 public class _0141_LinkedListCycle {
     public boolean hasCycle(ListNode head) {
+        var visitedNodes = new ArrayList<ListNode>();
+
+        while(head != null){
+            if(visitedNodes.contains(head)){
+                return true;
+            }
+            visitedNodes.add(head);
+            head = head.next;
+        }
+
         return false;
     }
 
