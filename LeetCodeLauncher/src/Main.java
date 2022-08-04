@@ -20,5 +20,6 @@ public class Main {
         new _0190_ReverseBits().run();
         new _0070_ClimbingStairs().run();
         new _0206_ReverseLinkedList().run();
+        new _0226InvertBinaryTree().run();
     }
 }
