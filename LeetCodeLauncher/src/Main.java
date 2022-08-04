@@ -19,5 +19,6 @@ public class Main {
         new _0268_MissingNumber().run();
         new _0190_ReverseBits().run();
         new _0070_ClimbingStairs().run();
+        new _0206_ReverseLinkedList().run();
     }
 }
