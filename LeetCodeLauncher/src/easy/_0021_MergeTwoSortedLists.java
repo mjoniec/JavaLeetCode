@@ -1,13 +1,27 @@
 package easy;
 
 import Utilities.ListNode;
-
 import java.util.Arrays;
-
 import static Utilities.ListNode.NodesToArray;
 
 public class _0021_MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        ListNode tmp = null;
+
+        while(true){
+            if(list1 == null && list2 == null){
+                break;
+            }
+
+            if(list2 == null || list1.val < list2.val){
+                tmp = list1;
+                list1 = list1.next;
+            }
+            else if(list1 == null || list1.val >= list2.val){
+                tmp = list2;
+                list2 = list2.next;
+            }
+        }
 
         return null;
     }
