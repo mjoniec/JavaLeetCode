@@ -22,5 +22,6 @@ public class Main {
         new _0206_ReverseLinkedList().run();
         new _0226_InvertBinaryTree().run();
         new _0141_LinkedListCycle().run();
+        new _0021_MergeTwoSortedLists().run();
     }
 }

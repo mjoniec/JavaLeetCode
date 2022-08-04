@@ -5,6 +5,8 @@ import Utilities.ListNode;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static Utilities.ListNode.NodesToArray;
+
 public class _0206_ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode reversedHead = null;
@@ -31,16 +33,5 @@ public class _0206_ReverseLinkedList {
         var n1 = new ListNode(1, n2);
 
         return n1;
-    }
-
-    public int[] NodesToArray(ListNode node){
-        var list = new ArrayList<Integer>();
-
-        while (node != null){
-            list.add(node.val);
-            node = node.next;
-        }
-
-        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
