@@ -1,5 +1,7 @@
 package easy;
 
+import Utilities.ListNode;
+
 import java.util.ArrayList;
 
 public class _0141_LinkedListCycle {
@@ -34,13 +36,5 @@ public class _0141_LinkedListCycle {
         n4.next = n2;
 
         return n3;
-    }
-
-    private class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }

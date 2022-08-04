@@ -1,5 +1,9 @@
 package easy;
 
+import Utilities.TreeNode;
+
+import static Utilities.TreeNode.print_r;
+
 public class _0226_InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if(root == null){
@@ -43,28 +47,5 @@ public class _0226_InvertBinaryTree {
         var root = new TreeNode(4, left, right);
 
         return root;
-    }
-
-    private void print_r(TreeNode node, int level, StringBuffer sb) {
-        if (node != null) {
-            print_r(node.right, level + 1, sb);
-            sb.append("\t".repeat(Math.max(0, level)));
-            sb.append(node.val);
-            sb.append("\n");
-            print_r(node.left, level + 1, sb);
-        }
-    }
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

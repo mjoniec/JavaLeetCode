@@ -1,5 +1,7 @@
 package easy;
 
+import Utilities.ListNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -40,13 +42,5 @@ public class _0206_ReverseLinkedList {
         }
 
         return list.stream().mapToInt(Integer::intValue).toArray();
-    }
-
-    private class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
