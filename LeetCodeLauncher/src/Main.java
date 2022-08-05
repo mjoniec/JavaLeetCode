@@ -25,5 +25,6 @@ public class Main {
         new _0021_MergeTwoSortedLists().run();
         new _0242_ValidAnagram().run();
         new _0125_ValidPalindrome().run();
+        new _0020_ValidParentheses().run();
     }
 }
