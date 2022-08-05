@@ -23,5 +23,7 @@ public class Main {
         new _0226_InvertBinaryTree().run();
         new _0141_LinkedListCycle().run();
         new _0021_MergeTwoSortedLists().run();
+        new _0242_ValidAnagram().run();
+        new _0125_ValidPalindrome().run();
     }
 }
