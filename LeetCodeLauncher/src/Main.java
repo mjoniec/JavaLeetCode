@@ -26,5 +26,6 @@ public class Main {
         new _0242_ValidAnagram().run();
         new _0125_ValidPalindrome().run();
         new _0020_ValidParentheses().run();
+        new _0235_LowestCommonAncestorBinarySearchTree().run();
     }
 }
