@@ -1,4 +1,7 @@
 import easy.*;
+import easyString._0020_ValidParentheses;
+import easyString._0125_ValidPalindrome;
+import easyString._0242_ValidAnagram;
 import mediumString._0003_LongestSubstringWithoutRepeatingCharacters;
 import mediumString._0424_LongestRepeatingCharacterReplacement;
 import other.MergeUnique;
