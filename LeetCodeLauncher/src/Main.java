@@ -1,5 +1,5 @@
 import easy.*;
-import medium._0003_LongestSubstringWithoutRepeatingCharacters;
+import mediumString._0003_LongestSubstringWithoutRepeatingCharacters;
 import other.MergeUnique;
 import other.OptimalPairs;
 import other.SpaceBetweenWordsMiddle;
@@ -27,5 +27,6 @@ public class Main {
         new _0125_ValidPalindrome().run();
         new _0020_ValidParentheses().run();
         new _0235_LowestCommonAncestorBinarySearchTree().run();
+        new _0100_SameTree().run();
     }
 }
