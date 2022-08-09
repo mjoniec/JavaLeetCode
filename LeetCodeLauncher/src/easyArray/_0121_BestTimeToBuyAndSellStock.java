@@ -1,4 +1,4 @@
-package easy;
+package easyArray;
 
 public class _0121_BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {

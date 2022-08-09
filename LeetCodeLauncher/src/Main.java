@@ -1,4 +1,6 @@
 import easy.*;
+import easyArray._0121_BestTimeToBuyAndSellStock;
+import easyArray._0217_ContainsDuplicate;
 import easyString._0020_ValidParentheses;
 import easyString._0125_ValidPalindrome;
 import easyString._0242_ValidAnagram;
