@@ -2,10 +2,7 @@ import easy.*;
 import easyString._0020_ValidParentheses;
 import easyString._0125_ValidPalindrome;
 import easyString._0242_ValidAnagram;
-import mediumString._0003_LongestSubstringWithoutRepeatingCharacters;
-import mediumString._0005_LongestPalindromicSubstring;
-import mediumString._0424_LongestRepeatingCharacterReplacement;
-import mediumString._0647_PalindromicSubstrings;
+import mediumString.*;
 import other.MergeUnique;
 import other.OptimalPairs;
 import other.SpaceBetweenWordsMiddle;
@@ -37,5 +34,6 @@ public class Main {
         new _0424_LongestRepeatingCharacterReplacement().run();
         new _0647_PalindromicSubstrings().run();
         new _0005_LongestPalindromicSubstring().run();
+        new _0049_GroupAnagrams().run();
     }
 }
