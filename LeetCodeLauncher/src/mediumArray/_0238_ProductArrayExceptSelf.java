@@ -26,11 +26,9 @@ public class _0238_ProductArrayExceptSelf {
 
             System.out.println("Given: [2,3,4,5] Expected: [60,40,30,24] Actual: "
                     + Arrays.toString(productExceptSelf(new int[]{2,3,4,5})));
-            //[2,3,4,5]
-            // 1>>1*2>>2*3>>6*4
-            //[1,  2,   6,  24]
-            //20*3<<5*4*<<1*5<<1
-            //60*1 20*2 5*6 1*24
-            //[60, 40, 30, 24]
+            //           [a,  b,  c,  d]
+            //1 for mul>>[1, a, ab, abc]
+            //           [bcd, cd, d, 1]<<2 for mul
+            //          [bcd,acd,abd,abc]
     }
 }
