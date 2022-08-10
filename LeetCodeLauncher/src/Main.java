@@ -5,6 +5,7 @@ import easyString._0020_ValidParentheses;
 import easyString._0125_ValidPalindrome;
 import easyString._0242_ValidAnagram;
 import mediumArray._0015_3Sum;
+import mediumArray._0033_SearchInRotatedSortedArray;
 import mediumArray._0238_ProductArrayExceptSelf;
 import mediumString.*;
 import other.MergeUnique;
@@ -41,5 +42,6 @@ public class Main {
         new _0049_GroupAnagrams().run();
         new _0015_3Sum().run();
         new _0238_ProductArrayExceptSelf().run();
+        new _0033_SearchInRotatedSortedArray().run();
     }
 }
