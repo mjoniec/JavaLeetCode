@@ -43,5 +43,6 @@ public class Main {
         new _0011_ContainerWithMostWater().run();
         new _0387_FirstUniqueCharacterInString().run();
         new _0013_RomanToInteger().run();
+        new _0014_LongestCommonPrefix().run();
     }
 }
