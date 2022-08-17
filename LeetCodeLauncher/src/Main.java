@@ -4,6 +4,7 @@ import easyArray._0217_ContainsDuplicate;
 import easyString._0020_ValidParentheses;
 import easyString._0125_ValidPalindrome;
 import easyString._0242_ValidAnagram;
+import easyString._0387_FirstUniqueCharacterInString;
 import mediumArray.*;
 import mediumString.*;
 import other.MergeUnique;
@@ -43,5 +44,6 @@ public class Main {
         //new _0033_SearchInRotatedSortedArray().run();
         //new _0053_MaximumSubarray().run();
         new _0011_ContainerWithMostWater().run();
+        new _0387_FirstUniqueCharacterInString().run();
     }
 }
