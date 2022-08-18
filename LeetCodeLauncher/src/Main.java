@@ -46,5 +46,6 @@ public class Main {
         new _0014_LongestCommonPrefix().run();
         new _0028_ImplementStrNeedleHayStack().run();
         new _0058_LengthLastWord().run();
+        new _0067_AddBinary().run();
     }
 }
