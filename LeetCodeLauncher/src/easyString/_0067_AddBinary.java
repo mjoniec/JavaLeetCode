@@ -2,48 +2,40 @@ package easyString;
 
 public class _0067_AddBinary {
     public String addBinary(String a, String b) {
-        String shorter, longer;
-        StringBuilder stringBuilder = new StringBuilder("");
-
-        if(a.length() >= b.length()){
-            longer = a;
-            shorter = b;
-        }
-        else{
-            longer = b;
-            shorter = a;
-        }
-
+        var stringBuilder = new StringBuilder("");
+        var ia = a.length()-1;
+        var jb = b.length()-1;
         var carry = '0';
 
-        for(int i = shorter.length()-1; i>=0; i--){
-            var counter = 0;
-            if(longer.charAt(i) == '1') counter++;
-            if(shorter.charAt(i) == '1') counter++;
-            if(carry == '1') counter++;
+        while(ia>=0 || jb>=0){
+            var bit1Counter = 0;
+            if(ia>=0 && a.charAt(ia--) == '1') bit1Counter++;
+            if(jb>=0 && b.charAt(jb--) == '1') bit1Counter++;
+            if(carry == '1') bit1Counter++;
 
-            if(counter == 3){
+            if(bit1Counter == 3){
                 carry = '1';
                 stringBuilder.append('1');
             }
-            else if(counter == 2){
+            else if(bit1Counter == 2){
                 carry = '1';
                 stringBuilder.append('0');
             }
-            else if(counter == 1){
+            else if(bit1Counter == 1){
                 carry = '0';
                 stringBuilder.append('1');
             }
-            else if(counter == 0){
+            else if(bit1Counter == 0){
                 carry = '0';
                 stringBuilder.append('0');
             }
         }
 
-        var longerDiff = longer.length() - shorter.length();
-        var left = longer.substring(0, longerDiff);
+        if(carry=='1'){
+            stringBuilder.append(carry);
+        }
 
-        return left + stringBuilder.reverse();
+        return stringBuilder.reverse().toString();
     }
 
     public void run() {
