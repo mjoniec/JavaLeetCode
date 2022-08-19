@@ -1,5 +1,6 @@
 import easy.*;
 import easyArray._0001_TwoSum;
+import easyArray._0035_SearchInsertPosition;
 import easyArray._0121_BestTimeToBuyAndSellStock;
 import easyArray._0217_ContainsDuplicate;
 import easyString.*;
@@ -49,5 +50,6 @@ public class Main {
         new _0058_LengthLastWord().run();
         new _0067_AddBinary().run();
         new _0001_TwoSum().run();
+        new _0035_SearchInsertPosition().run();
     }
 }
