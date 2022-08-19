@@ -1,8 +1,5 @@
 import easy.*;
-import easyArray._0001_TwoSum;
-import easyArray._0035_SearchInsertPosition;
-import easyArray._0121_BestTimeToBuyAndSellStock;
-import easyArray._0217_ContainsDuplicate;
+import easyArray.*;
 import easyString.*;
 import mediumArray.*;
 import mediumString.*;
@@ -51,5 +48,6 @@ public class Main {
         new _0067_AddBinary().run();
         new _0001_TwoSum().run();
         new _0035_SearchInsertPosition().run();
+        new _0026_RemoveDuplicatesFromSortedArray().run();
     }
 }
