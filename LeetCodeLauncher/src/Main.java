@@ -1,6 +1,6 @@
 import easy.*;
 import easyArray.*;
-import easySortBfs._0101_SymmetricTree;
+import easyTreeBfs._0101_SymmetricTree;
 import easyString.*;
 import mediumArray.*;
 import mediumString.*;
