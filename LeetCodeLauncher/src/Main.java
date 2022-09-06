@@ -1,5 +1,6 @@
 import easy.*;
 import easyArray.*;
+import easySortBfs._0101_SymmetricTree;
 import easyString.*;
 import mediumArray.*;
 import mediumString.*;
@@ -49,5 +50,6 @@ public class Main {
         new _0001_TwoSum().run();
         new _0035_SearchInsertPosition().run();
         new _0026_RemoveDuplicatesFromSortedArray().run();
+        new _0101_SymmetricTree().run();
     }
 }
