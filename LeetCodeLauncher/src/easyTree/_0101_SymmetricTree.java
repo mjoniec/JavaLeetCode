@@ -1,4 +1,4 @@
-package easyTreeBfs;
+package easyTree;
 
 import Utilities.TreeNode;
 

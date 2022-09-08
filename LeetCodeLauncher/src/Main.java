@@ -1,9 +1,9 @@
 import easy.*;
 import easyArray.*;
-import easyTreeBfs._0101_SymmetricTree;
+import easyTree._0101_SymmetricTree;
 import easyString.*;
-import easyTreeDfs._0112_PathSum;
-import easyTreeDfs._0404_SumOfLeftLeaves;
+import easyTree._0112_PathSum;
+import easyTree._0404_SumOfLeftLeaves;
 import mediumArray.*;
 import mediumString.*;
 import other.MergeUnique;
