@@ -4,6 +4,7 @@ import easyTree._0101_SymmetricTree;
 import easyString.*;
 import easyTree._0112_PathSum;
 import easyTree._0404_SumOfLeftLeaves;
+import easyTree._94_144_145_Traversals;
 import mediumArray.*;
 import mediumString.*;
 import other.MergeUnique;
@@ -55,5 +56,6 @@ public class Main {
         new _0101_SymmetricTree().run();
         new _0112_PathSum().run();
         new _0404_SumOfLeftLeaves().run();
+        new _94_144_145_Traversals().run();
     }
 }
