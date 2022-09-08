@@ -1,6 +1,7 @@
 import easy.*;
 import easyArray.*;
 import easyMatrix._0463_IslandPerimeter;
+import easyMatrix._1260_Shift2DGrid;
 import easyTree._0101_SymmetricTree;
 import easyString.*;
 import easyTree._0112_PathSum;
@@ -59,5 +60,6 @@ public class Main {
         new _0404_SumOfLeftLeaves().run();
         new _94_144_145_Traversals().run();
         new _0463_IslandPerimeter().run();
+        new _1260_Shift2DGrid().run();
     }
 }
