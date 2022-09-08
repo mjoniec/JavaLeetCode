@@ -2,9 +2,7 @@ package easyTree;
 
 import Utilities.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class _94_144_145_Traversals {
 
@@ -57,6 +55,23 @@ public class _94_144_145_Traversals {
         nums.add(root.val);
     }
 
+    private List<Integer> bfs(TreeNode root){
+        var list = new ArrayList<Integer>();
+        var stack = new Stack<TreeNode>();
+
+        stack.add(root);
+
+        while(!stack.isEmpty()){
+            var node = stack.remove(0);
+
+            list.add(node.val);
+
+            if(node.left != null) stack.add(node.left);
+            if(node.right != null) stack.add(node.right);
+        }
+
+        return list;
+    }
     public void run() {
         System.out.println("_94_144_145_Traversals: ");
         System.out.println("Input: preorder,  Expected: 1,2,4,5,3   Actual: "
@@ -65,6 +80,8 @@ public class _94_144_145_Traversals {
                 + Arrays.toString(inorderTraversal(prepareTestTree()).toArray()));
         System.out.println("Input: postorder,  Expected: 4,5,2,3,1   Actual: "
                 + Arrays.toString(postorderTraversal(prepareTestTree()).toArray()));
+        System.out.println("Input: bfs,  Expected: 1,2,3,4,5   Actual: "
+                + Arrays.toString(bfs(prepareTestTree()).toArray()));
     }
 
     private TreeNode prepareTestTree(){
