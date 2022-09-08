@@ -2,6 +2,7 @@ import easy.*;
 import easyArray.*;
 import easyTreeBfs._0101_SymmetricTree;
 import easyString.*;
+import easyTreeDfs._0112_PathSum;
 import mediumArray.*;
 import mediumString.*;
 import other.MergeUnique;
@@ -51,5 +52,6 @@ public class Main {
         new _0035_SearchInsertPosition().run();
         new _0026_RemoveDuplicatesFromSortedArray().run();
         new _0101_SymmetricTree().run();
+        new _0112_PathSum().run();
     }
 }
