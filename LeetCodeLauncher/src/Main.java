@@ -63,5 +63,6 @@ public class Main {
         new _0867_TransposeMatrix().run();
         new _0766_ToeplitzMatrix().run();
         new _0566_ReshapeTheMatrix().run();
+        new _1030_MatrixCellsInDistanceOrder().run();
     }
 }
