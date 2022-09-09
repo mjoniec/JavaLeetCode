@@ -1,9 +1,6 @@
 import easy.*;
 import easyArray.*;
-import easyMatrix._0463_IslandPerimeter;
-import easyMatrix._0766_ToeplitzMatrix;
-import easyMatrix._0867_TransposeMatrix;
-import easyMatrix._1260_Shift2DGrid;
+import easyMatrix.*;
 import easyTree._0101_SymmetricTree;
 import easyString.*;
 import easyTree._0112_PathSum;
@@ -65,5 +62,6 @@ public class Main {
         new _1260_Shift2DGrid().run();
         new _0867_TransposeMatrix().run();
         new _0766_ToeplitzMatrix().run();
+        new _0566_ReshapeTheMatrix().run();
     }
 }
