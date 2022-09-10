@@ -13,7 +13,7 @@ public class _1971_FindIfPathExistsInGraph {
             graph.computeIfAbsent(edge[1], k -> new HashSet<>()).add(edge[0]);
         }
 
-        //start of BFS traversal
+        //all nodes for next BFS traversal step
         Queue<Integer> queue = new LinkedList<>();
         queue.add(source);
 
