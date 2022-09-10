@@ -27,6 +27,8 @@ public class _1971_FindIfPathExistsInGraph {
 
             if(connections.contains(destination)) return true;
 
+            visited.add(node);
+
             for(Integer c : connections){
                 if(!visited.contains(c)) queue.add(c);
             }
