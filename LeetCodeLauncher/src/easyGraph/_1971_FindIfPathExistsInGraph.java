@@ -4,7 +4,7 @@ import java.util.*;
 
 public class _1971_FindIfPathExistsInGraph {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-        if(n == 1) return true;
+        if(source == destination) return true;
 
         //graph - each node has a set of all edges
         Map<Integer, Set<Integer>> graph = new HashMap<>();
