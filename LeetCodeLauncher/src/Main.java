@@ -1,5 +1,6 @@
 import easy.*;
 import easyArray.*;
+import easyGraph._1971_FindIfPathExistsInGraph;
 import easyMatrix.*;
 import easyTree._0101_SymmetricTree;
 import easyString.*;
@@ -64,5 +65,6 @@ public class Main {
         new _0766_ToeplitzMatrix().run();
         new _0566_ReshapeTheMatrix().run();
         new _1030_MatrixCellsInDistanceOrder().run();
+        new _1971_FindIfPathExistsInGraph().run();
     }
 }
