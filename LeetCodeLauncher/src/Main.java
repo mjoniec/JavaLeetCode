@@ -1,5 +1,6 @@
 import easy.*;
 import easyArray.*;
+import easyGraph._0997_FindTheTownJudge;
 import easyGraph._1971_FindIfPathExistsInGraph;
 import easyMatrix.*;
 import easyTree._0101_SymmetricTree;
@@ -66,5 +67,6 @@ public class Main {
         new _0566_ReshapeTheMatrix().run();
         new _1030_MatrixCellsInDistanceOrder().run();
         new _1971_FindIfPathExistsInGraph().run();
+        new _0997_FindTheTownJudge().run();
     }
 }
