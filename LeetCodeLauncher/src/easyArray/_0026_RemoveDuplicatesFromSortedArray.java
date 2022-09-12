@@ -1,29 +1,25 @@
 package easyArray;
 
+import java.util.Arrays;
+
 public class _0026_RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
-        if(nums.length == 1) return 1;
+        int left = 0;
+        int right = 0;
 
-        int k = 0;
+        while(right < nums.length) {
+            int num = nums[right];
 
-        for(int i=0; i<nums.length;i++){
-
-            if(nums[i] == -1) return k;
-            if(i==nums.length-1) return++k;
-
-            if(nums[i]==nums[i+1] && (i+1!=nums.length-1)){
-                for (int j=i+1; j<nums.length-1;j++){
-                    nums[j] = nums[j+1];
-                }
-                nums[nums.length-1] = -1;
-                i--;
+            while (right < nums.length && nums[right] == num) {
+                right++;
             }
-            else {
-                k++;
-            }
+
+            nums[left++] = num;
         }
 
-        return k;
+        //System.out.println(Arrays.toString(nums));
+
+        return left;
     }
 
     public void run() {

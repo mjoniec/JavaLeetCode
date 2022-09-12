@@ -55,7 +55,6 @@ public class Main {
         new _0067_AddBinary().run();
         new _0001_TwoSum().run();
         new _0035_SearchInsertPosition().run();
-        new _0026_RemoveDuplicatesFromSortedArray().run();
         new _0101_SymmetricTree().run();
         new _0112_PathSum().run();
         new _0404_SumOfLeftLeaves().run();
@@ -68,5 +67,6 @@ public class Main {
         new _1030_MatrixCellsInDistanceOrder().run();
         new _1971_FindIfPathExistsInGraph().run();
         new _0997_FindTheTownJudge().run();
+        new _0026_RemoveDuplicatesFromSortedArray().run();
     }
 }
