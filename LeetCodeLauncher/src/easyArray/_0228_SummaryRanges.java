@@ -10,13 +10,12 @@ public class _0228_SummaryRanges {
 
         while(i < nums.length){
             int left  = nums[i];//always included - only question if alone or with range
+            int right = left;
             i++;
 
             while(i < nums.length && nums[i-1] + 1 == nums[i]) {
-                i++;
+                right = nums[i++];
             }
-
-            int right = i < nums.length ? nums[i] : left;
 
             list.add(left == right
                     ? String.valueOf(left)
