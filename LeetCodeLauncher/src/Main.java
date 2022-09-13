@@ -68,5 +68,6 @@ public class Main {
         new _1971_FindIfPathExistsInGraph().run();
         new _0997_FindTheTownJudge().run();
         new _0026_RemoveDuplicatesFromSortedArray().run();
+        new _0228_SummaryRanges().run();
     }
 }
