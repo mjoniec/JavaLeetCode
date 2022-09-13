@@ -71,5 +71,6 @@ public class Main {
         new _0228_SummaryRanges().run();
         new _0495_TeemoAttacking().run();
         new _0027_RemoveElement().run();
+        new _0066_PlusOne().run();
     }
 }
