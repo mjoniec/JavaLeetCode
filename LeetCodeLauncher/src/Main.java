@@ -73,5 +73,6 @@ public class Main {
         new _0027_RemoveElement().run();
         new _0066_PlusOne().run();
         new _0136_SingleNumber().run();
+        new _0169_MajorityElement().run();
     }
 }
