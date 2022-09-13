@@ -69,5 +69,6 @@ public class Main {
         new _0997_FindTheTownJudge().run();
         new _0026_RemoveDuplicatesFromSortedArray().run();
         new _0228_SummaryRanges().run();
+        new _0495_TeemoAttacking().run();
     }
 }
