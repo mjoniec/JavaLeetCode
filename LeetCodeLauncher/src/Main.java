@@ -78,6 +78,7 @@ public class Main {
         new _0283_MoveZeroes().run();
         //new _0303_RangeSumQueryImmutable().run(); submitted on first go without any testing
         new _0349_IntersectionOfTwoArrays().run();
+        new _0350_IntersectionOfTwoArraysII().run();
 
     }
 }
