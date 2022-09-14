@@ -76,5 +76,7 @@ public class Main {
         new _0169_MajorityElement().run();
         new _0219_ContainsDuplicateII().run();
         new _0283_MoveZeroes().run();
+        //new _0303_RangeSumQueryImmutable().run(); submitted on first go without any testing
+
     }
 }
