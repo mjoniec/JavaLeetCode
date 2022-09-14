@@ -75,5 +75,6 @@ public class Main {
         new _0136_SingleNumber().run();
         new _0169_MajorityElement().run();
         new _0219_ContainsDuplicateII().run();
+        new _0283_MoveZeroes().run();
     }
 }
