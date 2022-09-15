@@ -83,6 +83,6 @@ public class Main {
         new _0448_FindAllNumbersDisappearedInAnArray().run();
         new _0485_MaxConsecutiveOnes().run();
         new _0496_NextGreaterElementI().run();
-
+        new _0506_RelativeRanks().run();
     }
 }
