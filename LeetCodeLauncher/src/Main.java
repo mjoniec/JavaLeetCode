@@ -84,5 +84,6 @@ public class Main {
         new _0485_MaxConsecutiveOnes().run();
         new _0496_NextGreaterElementI().run();
         new _0506_RelativeRanks().run();
+        new _2248_IntersectionOfMultipleArrays().run();
     }
 }
