@@ -82,6 +82,7 @@ public class Main {
         new _0414_ThirdMaximumNumber().run();
         new _0448_FindAllNumbersDisappearedInAnArray().run();
         new _0485_MaxConsecutiveOnes().run();
+        new _0496_NextGreaterElementI().run();
 
     }
 }
