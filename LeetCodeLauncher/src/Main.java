@@ -85,5 +85,6 @@ public class Main {
         new _0496_NextGreaterElementI().run();
         new _0506_RelativeRanks().run();
         new _2248_IntersectionOfMultipleArrays().run();
+        new _0561_ArrayPartition().run();
     }
 }
