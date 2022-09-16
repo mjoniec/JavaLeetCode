@@ -87,5 +87,6 @@ public class Main {
         new _2248_IntersectionOfMultipleArrays().run();
         new _0561_ArrayPartition().run();
         new _0455_AssignCookies().run();
+        new _2215_FindTheDifferenceOfTwoArrays().run();
     }
 }
