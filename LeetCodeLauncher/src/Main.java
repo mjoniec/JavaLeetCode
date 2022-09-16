@@ -6,6 +6,7 @@ import easyDynamicProgramming._0070_ClimbingStairs;
 import easyGraph._0997_FindTheTownJudge;
 import easyGraph._1971_FindIfPathExistsInGraph;
 import easyLinkedList._0021_MergeTwoSortedLists;
+import easyLinkedList._0083_RemoveDuplicatesFromSortedList;
 import easyLinkedList._0141_LinkedListCycle;
 import easyLinkedList._0206_ReverseLinkedList;
 import easyMatrix.*;
@@ -92,5 +93,6 @@ public class Main {
         new _0561_ArrayPartition().run();
         new _0455_AssignCookies().run();
         new _2215_FindTheDifferenceOfTwoArrays().run();
+        new _0083_RemoveDuplicatesFromSortedList().run();
     }
 }
