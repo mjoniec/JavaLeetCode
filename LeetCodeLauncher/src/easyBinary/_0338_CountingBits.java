@@ -1,4 +1,4 @@
-package easy;
+package easyBinary;
 
 import java.util.Arrays;
 

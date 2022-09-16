@@ -1,4 +1,4 @@
-package easy;
+package easyBinary;
 
 public class _0191_NumberOf1Bits {
     public int hammingWeight(int n) {
