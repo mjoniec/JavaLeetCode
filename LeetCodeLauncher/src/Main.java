@@ -92,5 +92,6 @@ public class Main {
         new _2215_FindTheDifferenceOfTwoArrays().run();
         new _0083_RemoveDuplicatesFromSortedList().run();
         new _0160_IntersectionOfTwoLinkedLists().run();
+        new _0104_MaximumDepthOfBinaryTree().run();
     }
 }
