@@ -99,5 +99,7 @@ public class Main {
         new _2099_FindSubsequenceOfLengthKWithTheLargestSum().run();
         new _2335_MinimumAmountOfTimeToFillCups().run();
         new _2357_MakeArrayZeroBySubtractingEqualAmounts().run();
+        new _2357_MakeArrayZeroBySubtractingEqualAmounts().run();
+        new _0110_BalancedBinaryTree().run();
     }
 }
