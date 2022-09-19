@@ -5,7 +5,7 @@ import easyBinary._0338_CountingBits;
 import easyDynamicProgramming._0070_ClimbingStairs;
 import easyGraph._0997_FindTheTownJudge;
 import easyGraph._1971_FindIfPathExistsInGraph;
-import easyHeap._0703_KthLargestElementInStream;
+import easyArray._0703_KthLargestElementInStream;
 import easyLinkedList.*;
 import easyMatrix.*;
 import easyTree.*;
@@ -95,5 +95,6 @@ public class Main {
         new _0160_IntersectionOfTwoLinkedLists().run();
         new _0104_MaximumDepthOfBinaryTree().run();
         new _0703_KthLargestElementInStream().run();
+        new _1046_LastStoneWeight().run();
     }
 }

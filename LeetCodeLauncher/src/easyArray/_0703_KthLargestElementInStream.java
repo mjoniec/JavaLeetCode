@@ -1,4 +1,4 @@
-package easyHeap;
+package easyArray;
 
 import java.util.ArrayList;
 import java.util.Arrays;
