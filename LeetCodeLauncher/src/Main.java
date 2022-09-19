@@ -98,5 +98,6 @@ public class Main {
         new _1046_LastStoneWeight().run();
         new _2099_FindSubsequenceOfLengthKWithTheLargestSum().run();
         new _2335_MinimumAmountOfTimeToFillCups().run();
+        new _2357_MakeArrayZeroBySubtractingEqualAmounts().run();
     }
 }
