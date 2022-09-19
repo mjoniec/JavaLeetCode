@@ -1,12 +1,31 @@
 package easyArray;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class _2335_MinimumAmountOfTimeToFillCups {
     public int fillCups(int[] amount) {
-        var queue = new PriorityQueue<Integer>();
+        var sum = 0;
+        var queue = new PriorityQueue<Integer>(Comparator.reverseOrder());
+        for(int num : amount) queue.add(num);
 
-        var a = queue.r
+        while (true) {
+            if(queue.peek() == 0){//no cups left
+                return sum;
+            }
+            else {
+                var max1 = queue.remove();
+                if(queue.peek() != 0){//2 or more cup types left
+                    var max2 = queue.remove();
+                    max2--;
+                    queue.add(max2);
+                }
+
+                max1--;
+                queue.add(max1);
+                sum++;
+            }
+        }
     }
 
     public void run() {

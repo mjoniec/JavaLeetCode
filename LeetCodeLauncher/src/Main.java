@@ -97,5 +97,6 @@ public class Main {
         new _0703_KthLargestElementInStream().run();
         new _1046_LastStoneWeight().run();
         new _2099_FindSubsequenceOfLengthKWithTheLargestSum().run();
+        new _2335_MinimumAmountOfTimeToFillCups().run();
     }
 }
