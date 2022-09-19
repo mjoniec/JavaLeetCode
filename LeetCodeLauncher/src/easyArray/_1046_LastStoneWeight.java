@@ -22,7 +22,7 @@ public class _1046_LastStoneWeight {
     }
 
     public void run() {
-        System.out.println("_0703_KthLargestElementInStream: ");
+        System.out.println("_1046_LastStoneWeight: ");
         System.out.println("Expected: 1  Actual: " + lastStoneWeight(new int[]{2,7,4,1,8,1}));
         System.out.println("Expected: 1  Actual: " + lastStoneWeight(new int[]{1}));
     }
