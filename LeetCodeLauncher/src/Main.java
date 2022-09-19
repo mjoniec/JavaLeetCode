@@ -102,5 +102,6 @@ public class Main {
         new _2357_MakeArrayZeroBySubtractingEqualAmounts().run();
         new _0110_BalancedBinaryTree().run();
         new _0111_MinimumDepthOfBinaryTree().run();
+        new _0257_BinaryTreePaths().run();
     }
 }
