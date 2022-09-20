@@ -3,6 +3,7 @@ import easyBinary._0190_ReverseBits;
 import easyBinary._0191_NumberOf1Bits;
 import easyBinary._0338_CountingBits;
 import easyDynamicProgramming._0070_ClimbingStairs;
+import easyDynamicProgramming._0118_PascalsTriangle;
 import easyGraph._0997_FindTheTownJudge;
 import easyGraph._1971_FindIfPathExistsInGraph;
 import easyArray._0703_KthLargestElementInStream;
@@ -108,5 +109,6 @@ public class Main {
         new _0637_AverageOfLevelsInBinaryTree().run();
         new _0653_TwoSumIVInputBST().run();
         new _0021_MergeTwoSortedLists().run();
+        new _0118_PascalsTriangle().run();
     }
 }
