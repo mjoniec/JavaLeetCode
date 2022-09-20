@@ -8,7 +8,7 @@ import easyGraph._1971_FindIfPathExistsInGraph;
 import easyArray._0703_KthLargestElementInStream;
 import easyLinkedList.*;
 import easyMatrix.*;
-import easyTree.*;
+import easyBSTree.*;
 import easyString.*;
 import mediumArray.*;
 import mediumString.*;
