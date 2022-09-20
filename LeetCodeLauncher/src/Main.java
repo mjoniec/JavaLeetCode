@@ -35,7 +35,6 @@ public class Main {
         new _0206_ReverseLinkedList().run();
         new _0226_InvertBinaryTree().run();
         new _0141_LinkedListCycle().run();
-        new _0021_MergeTwoSortedLists().run();
         new _0242_ValidAnagram().run();
         new _0125_ValidPalindrome().run();
         new _0020_ValidParentheses().run();
@@ -108,5 +107,6 @@ public class Main {
         new _0617_MergeTwoBinaryTrees().run();
         new _0637_AverageOfLevelsInBinaryTree().run();
         new _0653_TwoSumIVInputBST().run();
+        new _0021_MergeTwoSortedLists().run();
     }
 }
