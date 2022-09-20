@@ -108,5 +108,6 @@ public class Main {
         new _0119PascalsTriangleII().run();
         new _0746_MinCostClimbingStairs().run();
         new _0509_FibonacciNumber().run();
+        new _0203_RemoveLinkedListElements().run();
     }
 }
