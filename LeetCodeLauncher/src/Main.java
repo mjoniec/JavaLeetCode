@@ -105,5 +105,6 @@ public class Main {
         new _0257_BinaryTreePaths().run();
         new _0530_MinimumAbsoluteDifferenceInBST().run();
         new _0572_SubtreeOfAnotherTree().run();
+        new _0617_MergeTwoBinaryTrees().run();
     }
 }
