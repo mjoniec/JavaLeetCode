@@ -1,14 +1,8 @@
 import easyArray.*;
-import easyBinary._0190_ReverseBits;
-import easyBinary._0191_NumberOf1Bits;
-import easyBinary._0338_CountingBits;
-import easyDynamicProgramming._0070_ClimbingStairs;
-import easyDynamicProgramming._0118_PascalsTriangle;
-import easyDynamicProgramming._0119PascalsTriangleII;
-import easyGraph._0997_FindTheTownJudge;
-import easyGraph._1971_FindIfPathExistsInGraph;
-import easyArray._0703_KthLargestElementInStream;
+import easyBinary.*;
+import easyGraph.*;
 import easyLinkedList.*;
+import easyDynamicProgramming.*;
 import easyMatrix.*;
 import easyBSTree.*;
 import easyString.*;
@@ -112,5 +106,6 @@ public class Main {
         new _0021_MergeTwoSortedLists().run();
         new _0118_PascalsTriangle().run();
         new _0119PascalsTriangleII().run();
+        new _0746_MinCostClimbingStairs().run();
     }
 }
