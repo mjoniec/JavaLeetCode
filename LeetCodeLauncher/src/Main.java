@@ -106,5 +106,6 @@ public class Main {
         new _0530_MinimumAbsoluteDifferenceInBST().run();
         new _0572_SubtreeOfAnotherTree().run();
         new _0617_MergeTwoBinaryTrees().run();
+        new _0637_AverageOfLevelsInBinaryTree().run();
     }
 }

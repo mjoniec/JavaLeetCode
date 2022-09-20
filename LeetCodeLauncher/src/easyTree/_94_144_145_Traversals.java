@@ -72,6 +72,7 @@ public class _94_144_145_Traversals {
 
         return list;
     }
+
     public void run() {
         System.out.println("_94_144_145_Traversals: ");
         System.out.println("Input: preorder,  Expected: 1,2,4,5,3   Actual: "
