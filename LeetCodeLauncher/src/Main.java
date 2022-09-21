@@ -110,5 +110,6 @@ public class Main {
         new AM2_GreatestCommonDivisor().run();
         new _0234_PalindromeLinkedList().run();
         new _0876_MiddleOfTheLinkedList().run();
+        new _1290_ConvertBinaryNumberInLinkedListToInteger().run();
     }
 }
