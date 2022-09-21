@@ -108,5 +108,6 @@ public class Main {
         new _0203_RemoveLinkedListElements().run();
         new AM1_CellComplete().run();
         new AM2_GreatestCommonDivisor().run();
+        new _0234_PalindromeLinkedList().run();
     }
 }
