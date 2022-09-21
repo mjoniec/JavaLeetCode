@@ -107,5 +107,6 @@ public class Main {
         new _0509_FibonacciNumber().run();
         new _0203_RemoveLinkedListElements().run();
         new AM1_CellComplete().run();
+        new AM2_GreatestCommonDivisor().run();
     }
 }

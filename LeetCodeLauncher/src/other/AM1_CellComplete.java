@@ -27,7 +27,7 @@ public class AM1_CellComplete {
 
     public void run() {
         System.out.println("AM1_CellComplete: ");
-        System.out.println("Expected: 0101 0101 2 Actual:" + Arrays.toString(cellComplete(new int[]{0,0,0,1,0,1,0,0}, 1)));
+        System.out.println("Expected: 0101 0101  Actual:" + Arrays.toString(cellComplete(new int[]{0,0,0,1,0,1,0,0}, 1)));
         //0001 0100 - day 0
         //0010 0010 - after day 1
         //0101 0101 - after day 2
