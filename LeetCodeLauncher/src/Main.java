@@ -9,18 +9,15 @@ import easyString.*;
 import mediumArray.*;
 import mediumString.*;
 import mediumTree._0235_LowestCommonAncestorBinarySearchTree;
-import other.MergeUnique;
-import other.OptimalPairs;
-import other.SpaceBetweenWordsMiddle;
-import other.SumMinimalPair;
+import other.*;
 
 public class Main {
     public static void main(String[] args) {
-        new OptimalPairs().run();
-        new SumMinimalPair().run();
+        new AM4_OptimalPairs().run();
+        new AM3_SumMinimalPairs().run();
         new _0003_LongestSubstringWithoutRepeatingCharacters().run();
-        new MergeUnique().run();
-        new SpaceBetweenWordsMiddle().run();
+        new PT1_MergeUnique().run();
+        new GS2_SpaceBetweenWordsMiddle().run();
         new _0217_ContainsDuplicate().run();
         new _0121_BestTimeToBuyAndSellStock().run();
         new _0191_NumberOf1Bits().run();
@@ -109,5 +106,6 @@ public class Main {
         new _0746_MinCostClimbingStairs().run();
         new _0509_FibonacciNumber().run();
         new _0203_RemoveLinkedListElements().run();
+        new AM1_CellComplete().run();
     }
 }

@@ -1,6 +1,6 @@
 package other;
 
-public class SpaceBetweenWordsMiddle {
+public class GS2_SpaceBetweenWordsMiddle {
     public int FindLangestSpaceBetweenMiddleOfWords(String s){
         int max = 0;
         var words = s.split(" ");

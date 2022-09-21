@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Vector;
 
-public class SumMinimalPair {
+public class AM3_SumMinimalPairs {
     public int sumMinimalPair(int[] tab){
         var sum = 0;
         var vec = new Vector<Integer>();

@@ -9,7 +9,7 @@ import java.util.HashMap;
 //once best pair is chosen, search for another pairs that equal that number and return them all
 //if some pair would sum less do not include it - leftover elements
 //element is a vector - first element is id another is value - value is to be added
-public class OptimalPairs {
+public class AM4_OptimalPairs {
     public int[][]findOptimalPairs(int optimalSum, int[][] array1, int[][] array2){
         var map1 = new HashMap<Integer, Integer>();
         var map2 = new HashMap<Integer, Integer>();

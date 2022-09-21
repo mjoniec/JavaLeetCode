@@ -2,7 +2,7 @@ package other;
 
 import java.util.*;
 
-public class MergeUnique {
+public class PT1_MergeUnique {
     public int[] mergeUnique(int[] array1, int[] array2){
         Set<Integer> set = new HashSet<>();
         for (var num : array1) set.add(num);
