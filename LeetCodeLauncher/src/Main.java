@@ -109,5 +109,6 @@ public class Main {
         new AM1_CellComplete().run();
         new AM2_GreatestCommonDivisor().run();
         new _0234_PalindromeLinkedList().run();
+        new _0876_MiddleOfTheLinkedList().run();
     }
 }
