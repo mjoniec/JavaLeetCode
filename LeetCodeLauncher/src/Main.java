@@ -13,8 +13,6 @@ import other.*;
 
 public class Main {
     public static void main(String[] args) {
-        new AM4_OptimalPairs().run();
-        new AM3_SumMinimalPairs().run();
         new _0003_LongestSubstringWithoutRepeatingCharacters().run();
         new PT1_MergeUnique().run();
         new GS2_SpaceBetweenWordsMiddle().run();
@@ -111,5 +109,7 @@ public class Main {
         new _0234_PalindromeLinkedList().run();
         new _0876_MiddleOfTheLinkedList().run();
         new _1290_ConvertBinaryNumberInLinkedListToInteger().run();
+        new AM4_OptimalPairs().run();
+        new AM3_SumMinimalPairs().run();
     }
 }
