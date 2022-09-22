@@ -109,7 +109,7 @@ public class Main {
         new _0234_PalindromeLinkedList().run();
         new _0876_MiddleOfTheLinkedList().run();
         new _1290_ConvertBinaryNumberInLinkedListToInteger().run();
-        new AM4_OptimalPairs().run();
         new AM3_SumMinimalPairs().run();
+        new AM4_OptimalPairs().run();
     }
 }
