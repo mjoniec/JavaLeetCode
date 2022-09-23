@@ -10,7 +10,7 @@ public class _0459_RepeatedSubstringPattern {
             if(s.length() % i == 0){
                 int timesRepeated = s.length() / i;
                 var sb = new StringBuilder();
-                while(timesRepeated-- > 0) sb.append(s.substring(0,i));
+                while(timesRepeated-- > 0) sb.append(s, 0, i);
                 if(s.equals(sb.toString())) return true;
             }
         }
