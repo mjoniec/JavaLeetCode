@@ -117,5 +117,6 @@ public class Main {
         new _0205_IsomorphicStrings().run();
         new _0290_WordPattern().run();
         new _0344_ReverseString().run();
+        new _0345_ReverseVowelsOfString().run();
     }
 }
