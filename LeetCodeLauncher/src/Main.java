@@ -120,5 +120,6 @@ public class Main {
         new _0345_ReverseVowelsOfString().run();
         new _0389_FindTheDifference().run();
         new _0383_RansomNote().run();
+        new _0392_IsSubsequence().run();
     }
 }
