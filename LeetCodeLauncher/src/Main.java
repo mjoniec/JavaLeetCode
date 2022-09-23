@@ -121,5 +121,6 @@ public class Main {
         new _0389_FindTheDifference().run();
         new _0383_RansomNote().run();
         new _0392_IsSubsequence().run();
+        new _0409_LongestPalindrome().run();
     }
 }
