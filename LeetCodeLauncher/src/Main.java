@@ -114,5 +114,6 @@ public class Main {
         new _0459_RepeatedSubstringPattern().run();
         new _0168_ExcelSheetColumnTitle().run();
         new _0171_ExcelSheetColumnNumber().run();
+        new _0205_IsomorphicStrings().run();
     }
 }
