@@ -123,5 +123,6 @@ public class Main {
         new _0392_IsSubsequence().run();
         new _0409_LongestPalindrome().run();
         new _0434_NumberOfSegmentsInString().run();
+        new _0500_KeyboardRow().run();
     }
 }
