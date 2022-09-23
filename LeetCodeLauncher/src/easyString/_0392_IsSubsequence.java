@@ -26,8 +26,8 @@ public class _0392_IsSubsequence {
 
     public void run() {
         System.out.println("_0392_IsSubsequence: ");
-        //System.out.println("Expected: true  Actual:" + isSubsequence("ace", "abcde"));
-        //System.out.println("Expected: false  Actual:" + isSubsequence("aec", "abcde"));
+        System.out.println("Expected: true  Actual:" + isSubsequence("ace", "abcde"));
+        System.out.println("Expected: false  Actual:" + isSubsequence("aec", "abcde"));
         System.out.println("Expected: false  Actual:" + isSubsequence("axc", "ahbgdc"));
     }
 }
