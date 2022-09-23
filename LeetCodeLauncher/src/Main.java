@@ -119,5 +119,6 @@ public class Main {
         new _0344_ReverseString().run();
         new _0345_ReverseVowelsOfString().run();
         new _0389_FindTheDifference().run();
+        new _0383_RansomNote().run();
     }
 }
