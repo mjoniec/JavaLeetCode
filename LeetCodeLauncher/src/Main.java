@@ -112,5 +112,6 @@ public class Main {
         new AM3_SumMinimalPairs().run();
         new AM4_OptimalPairs().run();
         new _0459_RepeatedSubstringPattern().run();
+        new _0168_ExcelSheetColumnTitle().run();
     }
 }
