@@ -126,5 +126,6 @@ public class Main {
         new _0500_KeyboardRow().run();
         new _0541_ReverseStringII().run();
         new _0520_DetectCapital().run();
+        new _0521_LongestUncommonSubsequenceI().run();
     }
 }
