@@ -129,5 +129,6 @@ public class Main {
         new _0521_LongestUncommonSubsequenceI().run();
         new _0557_ReverseWordsInStringIII().run();
         new _0599_MinimumIndexSumOfTwoLists().run();
+        new _0551_StudentAttendanceRecordI().run();
     }
 }
