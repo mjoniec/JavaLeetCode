@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
         new _0003_LongestSubstringWithoutRepeatingCharacters().run();
         new PT1_MergeUnique().run();
-        new GS2_SpaceBetweenWordsMiddle().run();
+        new GS2_SpaceBetweenWordsMid().run();
         new _0217_ContainsDuplicate().run();
         new _0121_BestTimeToBuyAndSellStock().run();
         new _0191_NumberOf1Bits().run();
@@ -132,5 +132,6 @@ public class Main {
         new _0551_StudentAttendanceRecordI().run();
         new _0482_LicenseKeyFormatting().run();
         new GS1_LongestRepeatingCharBlock().run();
+        new GS2_SpaceBetweenWordsMid().run();
     }
 }
