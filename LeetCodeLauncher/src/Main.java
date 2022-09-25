@@ -131,5 +131,6 @@ public class Main {
         new _0599_MinimumIndexSumOfTwoLists().run();
         new _0551_StudentAttendanceRecordI().run();
         new _0482_LicenseKeyFormatting().run();
+        new GS1_LongestRepeatingCharBlock().run();
     }
 }
