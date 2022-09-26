@@ -133,5 +133,6 @@ public class Main {
         new _0482_LicenseKeyFormatting().run();
         new GS1_LongestRepeatingCharBlock().run();
         new GS2_SpaceBetweenWordsMid().run();
+        new _0039_CombinationSum().run();
     }
 }
