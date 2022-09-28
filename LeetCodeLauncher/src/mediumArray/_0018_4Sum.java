@@ -1,32 +1,26 @@
 package mediumArray;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.List;
 
 public class _0018_4Sum {
-    private int _target;
-    private int[] _numsAsc;
-    private List<List<Integer>> _lists = new ArrayList<>();
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        _target = target;
-        _lists = new ArrayList<>();
-        var list = new ArrayList<Integer>();
-        for(var c : nums) list.add(c);
-        Collections.sort(list);
-        _numsAsc = list.stream().mapToInt(Integer::intValue).toArray();
+        int n = nums.length;
+        List<List<Integer>> _lists = new ArrayList<>();
+        Arrays.sort(nums);
 
-        for (var a = 0;   a<_numsAsc.length; a++)
-        for (var b = a+1; b<_numsAsc.length; b++)
-        for (var c = b+1; c<_numsAsc.length; c++)
-        for (var d = c+1; d<_numsAsc.length; d++) {
-            if(_numsAsc[a] + _numsAsc[b] + _numsAsc[c] + _numsAsc[d] < _target) continue;
-            if(_numsAsc[a] + _numsAsc[b] + _numsAsc[c] + _numsAsc[d] == _target) {
+        for (var a = 0; a< n; a++)
+        for (var b = a+1; b< n; b++)
+        for (var c = b+1; c< n; c++)
+        for (var d = c+1; d< n; d++) {
+            if(nums[a] + nums[b] + nums[c] + nums[d] < target) continue;
+            if(nums[a] + nums[b] + nums[c] + nums[d] == target) {
                 var l = new ArrayList<Integer>();
-                l.add(_numsAsc[a]);
-                l.add(_numsAsc[b]);
-                l.add(_numsAsc[c]);
-                l.add(_numsAsc[d]);
+                l.add(nums[a]);
+                l.add(nums[b]);
+                l.add(nums[c]);
+                l.add(nums[d]);
                 if(!_lists.stream().anyMatch(e -> e.equals(l))){
                     _lists.add(l);
                 }
