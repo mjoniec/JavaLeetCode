@@ -134,5 +134,6 @@ public class Main {
         new GS1_LongestRepeatingCharBlock().run();
         new GS2_SpaceBetweenWordsMid().run();
         new _0039_CombinationSum().run();
+        new _0018_4Sum().run();
     }
 }
