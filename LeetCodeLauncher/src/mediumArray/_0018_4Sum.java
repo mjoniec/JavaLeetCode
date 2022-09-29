@@ -5,43 +5,46 @@ import java.util.Arrays;
 import java.util.List;
 
 public class _0018_4Sum {
-    //sort ascending
-    //add min+1 to all - all elements are larger than 0 (int overflow)
-    //
-    public List<List<Integer>> fourSum(int[] numsI, int targetI) {
-        int n = numsI.length;
+    //1. sort ascending
+    //2. reduce complexity of the problem by using sum3 solution in a loop as a 4sum
+    //3. unique values in answer lists - how?
+    //   forward index if duplicate value already covered (faster than collection.any search)
+    public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> _lists = new ArrayList<>();
-        Arrays.sort(numsI);
-        long minFactor = Math.abs(numsI[0])+1;
-        long[] nums = new long[n];
-        for(var i = 0; i<n; i++) nums[i] = numsI[i] + minFactor;
-        long target = targetI + 4 * minFactor;
+        int n = nums.length;
+        Arrays.sort(nums);
 
-        for (var a = 0; a< n; a++) {
-            if (nums[a] > target) break;
-            for (var b = a+1; b< n; b++) {
-                if (nums[a] + nums[b] > target) break;
-                for (var c = b+1; c< n; c++) {
-                    if (nums[a] + nums[b] + nums[c] > target) break;
-                    for (var d = c + 1; d < n; d++) {
-                        long sum = nums[a] + nums[b] + nums[c] + nums[d];
-                        if (sum > target) break;
-                        if (sum < target) continue;
-                        if (sum == target) {
-                            var l = new ArrayList<Integer>();
-                            l.add((int) (nums[a] - minFactor));
-                            l.add((int) (nums[b] - minFactor));
-                            l.add((int) (nums[c] - minFactor));
-                            l.add((int) (nums[d] - minFactor));
-                            if (!_lists.stream().anyMatch(e -> e.equals(l))) {
-                                _lists.add(l);
-                            }
-                        }
+        for (var a = 0; a<n-3; a++) {
+            if(a!=0) a = forwardIndexIfDuplicate(a, n-3, nums);
+            for (var b = a+1; b<n-2; b++) {
+                if(b!=a+1) b = forwardIndexIfDuplicate(b, n-2, nums);
+                var c = b+1;
+                var d = n-1;
+                while(c < d) {
+                    int sum = nums[a] + nums[b] + nums[c] + nums[d];
+                    if (sum == target) {
+                        _lists.add(List.of(nums[a], nums[b], nums[c], nums[d]));
+                        c++;
+                        d--;
+                        c = forwardIndexIfDuplicate(c, d, nums);
+                        d = backwardIndexIfDuplicate(d, c, nums);
                     }
+                    else if (sum < target) c++;
+                    else d--;
                 }
             }
         }
         return  _lists;
+    }
+
+    private int forwardIndexIfDuplicate(int index, int max, int[] nums){
+        while(index < max && nums[index] == nums[index-1]) index++;
+        return index;
+    }
+
+    private int backwardIndexIfDuplicate(int index, int min, int[] nums){
+        while(index > min && nums[index] == nums[index+1]) index--;
+        return index;
     }
 
     public List<List<Integer>> fourSumBruteForce(int[] nums, int target) {
