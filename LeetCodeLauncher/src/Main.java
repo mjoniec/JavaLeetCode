@@ -138,5 +138,6 @@ public class Main {
         new _0046_Permutations().run();
         new _0047_PermutationsII().run();
         new _0016_3SumClosest().run();
+        new _0040_CombinationSumII().run();
     }
 }
