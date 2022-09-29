@@ -137,5 +137,6 @@ public class Main {
         new _0018_4Sum().run();
         new _0046_Permutations().run();
         new _0047_PermutationsII().run();
+        new _0016_3SumClosest().run();
     }
 }
