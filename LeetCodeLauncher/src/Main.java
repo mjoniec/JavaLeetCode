@@ -135,5 +135,6 @@ public class Main {
         new GS2_SpaceBetweenWordsMid().run();
         new _0039_CombinationSum().run();
         new _0018_4Sum().run();
+        new _0046_Permutations().run();
     }
 }
