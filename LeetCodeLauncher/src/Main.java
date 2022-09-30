@@ -7,6 +7,7 @@ import easyMatrix.*;
 import easyBSTree.*;
 import easyString.*;
 import mediumArray.*;
+import mediumMatrix._0200_NumberOfIslands;
 import mediumString.*;
 import mediumTree._0235_LowestCommonAncestorBinarySearchTree;
 import other.*;
@@ -140,5 +141,6 @@ public class Main {
         new _0040_CombinationSumII().run();
         new _0053_MaximumSubarray().run();
         new _0122_BestTimeToBuyAndSellStockII().run();
+        new _0200_NumberOfIslands().run();
     }
 }
