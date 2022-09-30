@@ -10,6 +10,7 @@ import mediumArray.*;
 import mediumMatrix._0200_NumberOfIslands;
 import mediumMatrix._0695_MaxAreaOfIsland;
 import mediumMatrix._1254_NumberOfClosedIslands;
+import mediumMatrix._1905_CountSubIslands;
 import mediumString.*;
 import mediumTree._0235_LowestCommonAncestorBinarySearchTree;
 import other.*;
@@ -146,5 +147,6 @@ public class Main {
         new _0200_NumberOfIslands().run();
         new _0695_MaxAreaOfIsland().run();
         new _1254_NumberOfClosedIslands().run();
+        new _1905_CountSubIslands().run();
     }
 }
