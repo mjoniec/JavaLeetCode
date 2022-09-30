@@ -38,7 +38,6 @@ public class Main {
         new _0015_3Sum().run();
         new _0238_ProductArrayExceptSelf().run();
         //new _0033_SearchInRotatedSortedArray().run();
-        //new _0053_MaximumSubarray().run();
         new _0011_ContainerWithMostWater().run();
         new _0387_FirstUniqueCharacterInString().run();
         new _0013_RomanToInteger().run();
@@ -139,5 +138,6 @@ public class Main {
         new _0047_PermutationsII().run();
         new _0016_3SumClosest().run();
         new _0040_CombinationSumII().run();
+        new _0053_MaximumSubarray().run();
     }
 }
