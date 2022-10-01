@@ -148,5 +148,6 @@ public class Main {
         new _0695_MaxAreaOfIsland().run();
         new _1254_NumberOfClosedIslands().run();
         new _1905_CountSubIslands().run();
+        new _1143_LongestCommonSubsequence().run();
     }
 }
